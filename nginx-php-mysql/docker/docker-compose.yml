@@ -33,4 +33,4 @@ services:
     ports:
       - 3306:3306
     volumes:      
-      - ./seeder:/docker-entrypoint-initdb.d/script.sql
+      - ./seeder.sql:/docker-entrypoint-initdb.d/seeder.sql
